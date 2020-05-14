@@ -1,0 +1,40 @@
+#mainNav {
+    background-color: #ffc107;
+    font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+    color: #ffffff;
+}
+
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffc107;
+}
+
+.footer {
+    background-color: #ffc107;
+}
+
+.text-faded {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+    color: #985600;
+}
+
+.btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color #fff: ;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}

@@ -1,0 +1,50 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.jpg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">Laissez-vous surprendre</span>
+          <span class="section-heading-lower">Mission</span>
+        </h2>
+        <p class="mb-3">
+          Nous avons pour mission que la gestion du service complet de nettoyage et d'entretien, comme la finition des travaux, contribue à la qualité de vie, au confort des utilisateurs, à la sécurité et à la conservation des installations, générant de la valeur pour nos clients.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <! –<div class="intro-button mx-auto">           <a class="btn btn-primary btn-xl" href="store.html">Visítanos</a>         </div>— >-->
+
+
+<!-- Mensaje -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Engagement total</span>
+            <span class="section-heading-lower">La vision</span>
+          </h2>
+          <p class="mb-0">
+Notre vision est que nous sommes et serons une entreprise de référence au niveau national, dans le secteur que nous développons</p>
+          <p>Version des codes Nacebel pour les installations d'installation ITVA N.E.C. Travaux de finition et de finition Travaux de construction spécialisés Nettoyage général de bâtiments Activités générales de construction. Nettoyage industriel</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
